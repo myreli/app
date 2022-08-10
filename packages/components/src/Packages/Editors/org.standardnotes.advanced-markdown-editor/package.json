@@ -35,7 +35,7 @@
     "mini-css-extract-plugin": "^1.4.0",
     "prettier": "*",
     "sass": "^1.32.8",
-    "sass-loader": "^11.0.1",
+    "sass-loader": "^13.0.2",
     "sn-stylekit": "3.0.1",
     "webpack": "*",
     "webpack-cli": "*",
