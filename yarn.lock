@@ -4511,6 +4511,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@milkdown/exception@npm:6.5.0":
+  version: 6.5.0
+  resolution: "@milkdown/exception@npm:6.5.0"
+  dependencies:
+    tslib: ^2.4.0
+  checksum: 5e2d97699ce2cf4e278138da56fb68cab05f9891e51d9ec095867a99238fb851b012e012ae5ae75bf649dbb71cb308568dcfa6ab9de79236c28b6ad5dbff9795
+  languageName: node
+  linkType: hard
+
 "@milkdown/plugin-clipboard@npm:5.5.0":
   version: 5.5.0
   resolution: "@milkdown/plugin-clipboard@npm:5.5.0"
@@ -4726,19 +4735,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@milkdown/react@npm:5.5.0":
-  version: 5.5.0
-  resolution: "@milkdown/react@npm:5.5.0"
+"@milkdown/react@npm:6.5.0":
+  version: 6.5.0
+  resolution: "@milkdown/react@npm:6.5.0"
   dependencies:
-    "@milkdown/utils": 5.5.0
-    nanoid: ^3.1.25
-    tslib: ^2.3.1
+    "@milkdown/utils": 6.5.0
+    nanoid: ^4.0.0
+    tslib: ^2.4.0
   peerDependencies:
-    "@milkdown/core": ^5.4.0
-    "@milkdown/prose": ^5.4.0
+    "@milkdown/core": ^6.0.1
+    "@milkdown/prose": ^6.0.1
     react: "*"
     react-dom: "*"
-  checksum: f25db3850c4293659938d8d8c395d8231f5ef798d5ee40bd6f49c39e3bb723a4d2aac32295526eea0c6896f79e6483658f17d6b190944e650e5fb4ae09de9936
+  checksum: 9ec7af01c19f087b94d46fb442a93ca7ec9245a13e9b9bb4c486f4bc4f4345ffd0de937a65d94f2992f1c10bfa0e0cdfd4cdfd81d6f07e3014ab1cbfc213bc43
   languageName: node
   linkType: hard
 
@@ -4776,6 +4785,20 @@ __metadata:
     "@milkdown/core": ^5.4.0
     "@milkdown/prose": ^5.4.0
   checksum: 90f2452b6a3821c5f647bbe7048f760e4ffdee424009023dffab7d35743b24ae285d1a98738da26c33360873e3ba68c95d7d72d51650e43e2965c73ff2998731
+  languageName: node
+  linkType: hard
+
+"@milkdown/utils@npm:6.5.0":
+  version: 6.5.0
+  resolution: "@milkdown/utils@npm:6.5.0"
+  dependencies:
+    "@milkdown/exception": 6.5.0
+    nanoid: ^4.0.0
+    tslib: ^2.4.0
+  peerDependencies:
+    "@milkdown/core": ^6.0.1
+    "@milkdown/prose": ^6.0.1
+  checksum: 1e7bf766076f66a4eb5209014806328035b30dca018031bebd940b29aa8d298f36045520f1a76bfc72fff3551db233ec140d085df550451634b8bd97f00c778a
   languageName: node
   linkType: hard
 
@@ -6900,7 +6923,7 @@ __metadata:
     "@milkdown/preset-commonmark": 5.5.0
     "@milkdown/preset-gfm": 5.5.0
     "@milkdown/prose": 5.5.0
-    "@milkdown/react": 5.5.0
+    "@milkdown/react": 6.5.0
     "@milkdown/theme-nord": 5.5.0
     "@standardnotes/editor-kit": 2.2.4
     "@standardnotes/styles": "workspace:*"
@@ -27435,6 +27458,15 @@ __metadata:
   bin:
     nanoid: bin/nanoid.cjs
   checksum: 2fddd6dee994b7676f008d3ffa4ab16035a754f4bb586c61df5a22cf8c8c94017aadd360368f47d653829e0569a92b129979152ff97af23a558331e47e37cd9c
+  languageName: node
+  linkType: hard
+
+"nanoid@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "nanoid@npm:4.0.0"
+  bin:
+    nanoid: bin/nanoid.js
+  checksum: 7d5946df5c6d383694195b781ae7b5067c149d164ec71e910d6b06676309c3459b68af570b944fb5ecd5065d19df464f05700d141d70bb712ff8ca06642fd8df
   languageName: node
   linkType: hard
 
