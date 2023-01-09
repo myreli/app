@@ -39,7 +39,7 @@
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "eslint-plugin-prettier": "*",
     "jest": "^28.1.2",
-    "jsdom": "^20.0.0",
+    "jsdom": "^21.0.0",
     "ts-jest": "^28.0.5"
   }
 }
